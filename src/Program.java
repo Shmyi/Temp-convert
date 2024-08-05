@@ -15,7 +15,8 @@ public class Program {
 		String temperature_UnitOfMeasure = "celsius";	// Initialize temperature_UnitOfMeasure
 		int temperature = 0;	// initialize temperature
 		String report	= null; // report from object
-
+		
+		//if input not = 'Fahrenheit' or 'Celsius' keep asking user to input
 		do {
 		System.out.print("Enter the unit ('Fahrenheit' or 'Celsius'): ");
 		temperature_UnitOfMeasure = keyboard.nextLine();
